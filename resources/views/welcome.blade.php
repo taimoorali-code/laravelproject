@@ -1,9 +1,15 @@
-@extends('nav')
-@section('title', 'Page Title')
-@section('sidebar')
-   @parent
-<p>This refers to the master sidebar.</p>
-@endsection
-@section('content')
-<p>This is my body content.</p>
-@endsection
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+</head>
+<body>
+   <div style="display: flex; justify-content: center; align-items: center">
+      <h1>hello welcome to the laravel project of digital ocean</h1>
+
+   </div>
+</body>
+</html>
